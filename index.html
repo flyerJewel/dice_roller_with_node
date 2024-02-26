@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+.background  {
+	font-size: 28px;
+	text-align: center;
+	color:rgb(220, 213, 71);
+	-webkit-text-stroke: 1px black;
+	user-select: none;
+	background-image: url(backyard.JPG );
+	background-position: center;
+	background-repeat: repeat;
+	background-size: cover;
+	height: 100%; 
+  
+}
+</style>
+<script src="index.js">
+</script>
+</head>
+<body class = background>
+<div>
+<h2>Dice Roller Game</h2><br> <h3>(Roll a total of 7 to win)</h3>
+
+<h2 id="dice1"></h2>
+<h2 id="dice2"></h2>
+<h2 id="dice3"></h2>
+<h2 id="total"></h2>
+<h2 id="winner"></h2>
+
+
+
+
+
+
+</body>
+<button type="button" onclick="GetData()">Roll</button>
+
+
+</html>			
